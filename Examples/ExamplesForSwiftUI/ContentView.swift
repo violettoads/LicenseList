@@ -14,9 +14,9 @@ struct ContentView: View {
             NavigationLink("License") {
                 LicenseListView()
                     .navigationTitle("LICENSE")
-                    #if os(iOS)
-                    .navigationBarTitleDisplayMode(.inline)
-                    #endif
+//                    #if os(iOS)
+                    .navigationBarTitleDisplayMode(.large)
+//                    #endif
             }
         }
     }
